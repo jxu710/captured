@@ -1,0 +1,62 @@
+html{
+    font-size:125%;
+}
+
+body{
+    font-family: $bodyFont;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+h1,h2,h3,nav,button,#email{
+    font-family: $headingFont;
+    margin: 0;
+}
+
+// set the heading font-sizes
+// HEADINGS:
+// h1(index.html): 138px;
+// h1(other pages): 40px;
+// h2: 42px;
+// h3: 32px;
+// email:26px;
+// navigation:20px;
+// button:20px;
+
+h1{
+    font-size: 6.9rem;
+}
+
+h2{
+    font-size: 2.1rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+ul,li,a,input{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer p{
+    color: $quinary;
+    margin: 0;
+}
+
+button{
+    font-size:1rem;
+    background-color: $secondary;
+    border: none;
+    text-transform: uppercase;
+}

@@ -1,0 +1,55 @@
+// intro section style
+.intro {
+    text-align: center;
+    background-color: $quinary;
+    padding: 200px 50px;
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    p {
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+        padding: 20px 0;
+    }
+}
+
+// about section styles
+
+.about{
+    background-color:$quaternary;
+}
+
+.galleryContainer{
+    width: 100vw;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    .leftImageContainer{
+        margin-top: 75px;
+        width: 40%;
+        img{
+            margin-top: -100px;
+            box-shadow: 35px 25px 0 $primary;
+        }
+    }
+    .leftpicInfo{
+        width: 40%;
+        margin: 50px 100px 50px;
+    }
+}
+
+.flexContainer2{
+    display: flex;
+    padding-top: 50px;
+}
+
+// socialicons section
+
+.socialIcons{
+    background-color: $quinary;
+}

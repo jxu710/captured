@@ -7,6 +7,9 @@ img{
     max-width: 1260px;
     width: 90%;
     margin: 0 auto;
+    li{
+        list-style: none;
+    }
 }
 
 section{
@@ -14,5 +17,6 @@ section{
 }
 
 button{
-    padding: 15px;
+    padding: 15px 20px;
+    cursor: pointer;
 }

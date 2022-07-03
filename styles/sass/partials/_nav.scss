@@ -6,7 +6,7 @@ nav{
      ul{
         display: flex;
         justify-content: flex-end;
-        li:first-child{
+        li:active,:hover{
             text-decoration: underline 3px $secondary;
             text-underline-offset: 8px;
         }
@@ -16,34 +16,34 @@ nav{
         }
     }
 }
-
+// header images styles
 .headerImgContainer{
-    position: relative;
+    height: 90vh;
+    background-image: url(../captured-final-assets/header-image.jpg);
+    position: relative;    
 }
 
 .headerBoxContainer{
     position: absolute;
-    top: 25vh;
+    top: 30vh;
     right: 0;
-    width: 40vw;
-    border: 30px $primary solid;
-    border-right: none;
+    width: 40%;
+    box-shadow: 
+    -8px -20px 0 2em $primary,-8px 20px 0 2em $primary;
+
 }
 
+// h1 styles 
 h1{
     text-align: center;
     text-transform: uppercase;
     position: absolute;
+    bottom:15%;
+    left:25vw;
     z-index: 10;
+    background: transparent;
+
 
 }
 
-// intro section style
-.intro{
-    text-align: center;
-    background-color: $quinary;
-    padding: 150px 50px 100px;
-    p{
-        text-align: justify;
-    }
-}
+

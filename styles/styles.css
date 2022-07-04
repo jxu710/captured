@@ -408,8 +408,111 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   padding-top: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.flexContainer2 .rightImageContainer {
+  width: 40%;
+}
+.flexContainer2 .rightImageContainer img {
+  -webkit-box-shadow: -35px 25px 0 #fdfa69;
+          box-shadow: -35px 25px 0 #fdfa69;
+}
+.flexContainer2 .rightpicInfo {
+  width: 40%;
+  text-align: right;
+  padding-top: 30px;
+}
+.flexContainer2 .rightpicInfo p {
+  text-align: start;
 }
 
 .socialIcons {
   background-color: #effdf3;
+  padding-top: 100px;
+}
+.socialIcons .blogGettouch {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pickCommunity, .blogGettouch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topPicks, .community, .blogIcon, .getTouch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.topPicks i, .community i, .blogIcon i, .getTouch i {
+  margin: 0;
+  text-align: center;
+  background-color: #4ceea7;
+  border-radius: 50%;
+  height: 45px;
+}
+
+.fa-camera, .fa-phone-flip {
+  padding: 12.5px;
+}
+
+.fa-users {
+  padding: 10px;
+}
+
+.fa-file {
+  padding: 15px;
+}
+
+.flexContent {
+  margin-left: 20px;
+}
+
+.profileContainer {
+  background-color: #effdf3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.profileContainer h2 {
+  text-transform: uppercase;
+}
+.profileContainer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.profileContainer img {
+  -webkit-box-shadow: 35px 35px 0 #fdfa69;
+          box-shadow: 35px 35px 0 #fdfa69;
+}
+.profileContainer .textContainer {
+  width: 80%;
+  margin-left: 100px;
+}
+
+.pictureContainer {
+  margin: 100px;
+}
+.pictureContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.pictureContainer li {
+  margin: 20px;
+}
+
+footer {
+  background: #2c2c2c;
+  text-align: center;
 }

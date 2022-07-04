@@ -46,10 +46,102 @@
 .flexContainer2{
     display: flex;
     padding-top: 50px;
+    justify-content: space-between;
+    .rightImageContainer{
+        width: 40%;
+        img{
+            box-shadow: -35px 25px 0 $primary;
+        }
+    }
+    .rightpicInfo{
+        width: 40%;
+        text-align: right;
+        padding-top: 30px;
+        p{
+            text-align: start;
+        }
+    }
 }
 
 // socialicons section
 
 .socialIcons{
     background-color: $quinary;
+    padding-top: 100px;
+    .blogGettouch{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+.pickCommunity, .blogGettouch{
+    display: flex;
+}
+
+.topPicks, .community, .blogIcon, .getTouch{
+    display: flex;
+        i{  
+        margin: 0;
+        text-align: center;
+        background-color: $secondary;
+        border-radius: 50%;
+        height: 45px;
+    }
+}
+
+.fa-camera, .fa-phone-flip{
+    padding: 12.5px;
+}
+.fa-users{
+    padding: 10px;
+}
+
+.fa-file{
+    padding: 15px;
+}
+.flexContent{
+    margin-left: 20px;
+}
+
+// month profile section
+
+.profileContainer{
+    background-color: $quinary;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h2{
+        text-transform: uppercase;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img{
+        box-shadow: 35px 35px 0 $primary;
+    }
+    .textContainer{
+        width: 80%;
+        margin-left: 100px;
+    }
+}
+
+// picture container 
+
+.pictureContainer{
+    margin: 100px;
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        margin: 20px;
+    }
+}
+
+// footer section 
+
+footer{
+    background: $tertiary;
+    text-align: center;
 }

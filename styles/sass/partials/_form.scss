@@ -1,0 +1,42 @@
+// form style 
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    max-width: 1000px;
+}
+
+input,
+textarea {
+    background: transparent;
+    padding: 0 0 10px 5px;
+    margin-bottom: 40px;
+    border: none;
+
+    &::placeholder {
+        color: $tertiary;
+        opacity: 1;
+    }
+
+    &::focus {
+        border-bottom: 1px solid $tertiary;
+    }
+}
+
+
+input[type=email] {
+    margin-left: 20px;
+}
+
+input {
+    border-bottom: 1px solid $secondary;
+    padding: 10px 150px 10px 20px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid $secondary;
+    padding-top: 20px;
+    padding-left: 20px;
+}

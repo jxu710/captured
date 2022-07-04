@@ -1,0 +1,110 @@
+// blog page header style 
+.blogHeaderImg{
+    height: 60vh;
+    background-image: url(../captured-final-assets/blog-header.jpg);
+    width: 100%;
+
+    h2{
+        font-size: 4rem;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 150px;
+    }
+}
+
+// general styles of 2 sides 
+.blogFlex{
+    display: flex;
+    justify-content: space-between;
+    background-color: $quinary;
+}
+
+// side blog style 
+.sideBlog{
+    width: 30%;
+    margin-top: 100px;
+
+}
+
+.sideBlogPost{
+    background: $quaternary;
+    margin-left: 70px;
+    margin-top: -350px;
+    padding-top: 370px;
+    padding-bottom: 50px;
+    h3, p, ul{
+        margin: 0 20px;
+        li::before {
+            content: "•";
+            color: $secondary;
+            margin-right: 15px;
+        }
+    }
+    h3{
+        margin-bottom:20px ;
+    }
+
+
+    span{
+        font-weight: bold;
+        text-transform: none;
+    }
+}
+
+.recentPost{
+    h3{
+        margin-bottom: 20px;
+    }
+    margin-top: 50px;
+}
+
+//  main blog post section
+
+.blogPost{
+    width: 60%;
+}
+
+.blogImg{
+    margin-top: -190px;
+    img{
+        box-shadow: -35px 35px 0 $primary;;
+    }
+}
+
+.blogContent{
+    margin-left: -35px;
+    margin-top: 30px;
+    padding: 30px 0px 0px 50px;
+    h2{
+        text-transform: uppercase;
+    }
+    border: 5px solid $primary;
+    border-top: none;
+    border-right: none;
+}
+
+// comments section style 
+.blogComments{
+    h3{
+        margin: 30px 0;
+    }
+    p{
+        margin-top: 0;
+        padding: 0;
+    }
+}
+
+.firstComment, .secondComment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstCommentImg, .secondCommentImg{
+    width: 50%;
+}
+
+.secondComment{
+    margin-top: 60px;
+}
+
+

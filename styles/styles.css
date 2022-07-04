@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -515,4 +516,171 @@ h1 {
 footer {
   background: #2c2c2c;
   text-align: center;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 80px auto;
+  max-width: 1000px;
+}
+
+input,
+textarea {
+  background: transparent;
+  padding: 0 0 10px 5px;
+  margin-bottom: 40px;
+  border: none;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #2c2c2c;
+  opacity: 1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #2c2c2c;
+  opacity: 1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #2c2c2c;
+  opacity: 1;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #2c2c2c;
+  opacity: 1;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #2c2c2c;
+  opacity: 1;
+}
+input::focus,
+textarea::focus {
+  border-bottom: 1px solid #2c2c2c;
+}
+
+input[type=email] {
+  margin-left: 20px;
+}
+
+input {
+  border-bottom: 1px solid #4ceea7;
+  padding: 10px 150px 10px 20px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #4ceea7;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.blogHeaderImg {
+  height: 60vh;
+  background-image: url(../captured-final-assets/blog-header.jpg);
+  width: 100%;
+}
+.blogHeaderImg h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px;
+}
+
+.blogFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #effdf3;
+}
+
+.sideBlog {
+  width: 30%;
+  margin-top: 100px;
+}
+
+.sideBlogPost {
+  background: #fafafa;
+  margin-left: 70px;
+  margin-top: -350px;
+  padding-top: 370px;
+  padding-bottom: 50px;
+}
+.sideBlogPost h3, .sideBlogPost p, .sideBlogPost ul {
+  margin: 0 20px;
+}
+.sideBlogPost h3 li::before, .sideBlogPost p li::before, .sideBlogPost ul li::before {
+  content: "•";
+  color: #4ceea7;
+  margin-right: 15px;
+}
+.sideBlogPost h3 {
+  margin-bottom: 20px;
+}
+.sideBlogPost span {
+  font-weight: bold;
+  text-transform: none;
+}
+
+.recentPost {
+  margin-top: 50px;
+}
+.recentPost h3 {
+  margin-bottom: 20px;
+}
+
+.blogPost {
+  width: 60%;
+}
+
+.blogImg {
+  margin-top: -190px;
+}
+.blogImg img {
+  -webkit-box-shadow: -35px 35px 0 #fdfa69;
+          box-shadow: -35px 35px 0 #fdfa69;
+}
+
+.blogContent {
+  margin-left: -35px;
+  margin-top: 30px;
+  padding: 30px 0px 0px 50px;
+  border: 5px solid #fdfa69;
+  border-top: none;
+  border-right: none;
+}
+.blogContent h2 {
+  text-transform: uppercase;
+}
+
+.blogComments h3 {
+  margin: 30px 0;
+}
+.blogComments p {
+  margin-top: 0;
+  padding: 0;
+}
+
+.firstComment, .secondComment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.firstCommentImg, .secondCommentImg {
+  width: 50%;
+}
+
+.secondComment {
+  margin-top: 60px;
 }

@@ -16,7 +16,7 @@
     // contact page
     .contactHeaderImg {
         h2{
-            padding-top: 300px;
+            padding-top: 150px;
             padding-left: 280px;
         }
     }
@@ -58,6 +58,113 @@
 // breakpoints at 600px
 @media (max-width:600px) {
     // blog page
-    
+    .sideBlogPost{
+        margin-left: 0
+    }
+
+    form{
+        margin-left: -250px;
+    }
+
+    // contact page 
+    .contactHeaderImg{
+        h2{
+            font-size: 2rem;
+            left:25%;
+        }
+    }
+
+    .flexContact .wrapper{
+        flex-direction: column;
+    }
+}
+
+// breakpoints at 320px
+
+@media (max-width:925px){
+    // index page 
+    h1{
+        font-size: 2rem;
+        left: 15vw;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .headerBoxContainer{
+        box-shadow: none;
+        border: 20px solid $primary;
+        border-right: none;
+    }
+
+    .pickCommunity, .blogGettouch {
+        flex-direction: column;
+    }
+
+    .flexContainer, .flexContainer2, .profileContainer .wrapper{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .profileContainer .wrapper {
+        margin-left: -50px;
+    }
+
+    .profileContainer{
+        width: 100vw;
+        img{
+            margin: 0 auto;
+        }
+    }
+    .textContainer{
+        margin-top: 50px;
+    }
+
+    // blog page
+    .blogHeaderImg h2{
+        font-size: 1.5rem;
+        position: absolute;
+        bottom: 400px;
+        left: -30px;
+
+    }
+    h3{
+        font-size: 1rem;
+    }
+
+    .blogFlex{
+        flex-direction: column;
+    }
+    .blogPost, .blogImg, .sideBlog{
+        width: 100%;
+    }
+
+    .recentPost{
+        margin-bottom: 150px;
+        li{
+            z-index: 10;
+        }
+    } 
+
+    form{
+        margin-left: 0;
+    }
+    input,
+    textarea {
+        padding: 0 0 5px 5px;
+        margin-bottom: 40px;
+    }
+
+    // contact page 
+    .contactHeaderImg {
+        h2 {
+            font-size: 1.5rem;
+            left: -280px;
+            top:100px;
+        }
+    }
+
+    .flexContact .wrapper{
+        flex-direction: column;
+    }
 }
 

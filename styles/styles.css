@@ -762,7 +762,7 @@ textarea {
   }
 
   .contactHeaderImg h2 {
-    padding-top: 300px;
+    padding-top: 150px;
     padding-left: 280px;
   }
 
@@ -795,5 +795,125 @@ textarea {
   h1 {
     font-size: 3rem;
     left: 30vw;
+  }
+}
+@media (max-width: 600px) {
+  .sideBlogPost {
+    margin-left: 0;
+  }
+
+  form {
+    margin-left: -250px;
+  }
+
+  .contactHeaderImg h2 {
+    font-size: 2rem;
+    left: 25%;
+  }
+
+  .flexContact .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 925px) {
+  h1 {
+    font-size: 2rem;
+    left: 15vw;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .headerBoxContainer {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: 20px solid #fdfa69;
+    border-right: none;
+  }
+
+  .pickCommunity, .blogGettouch {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .flexContainer, .flexContainer2, .profileContainer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100vw;
+  }
+
+  .profileContainer .wrapper {
+    margin-left: -50px;
+  }
+
+  .profileContainer {
+    width: 100vw;
+  }
+  .profileContainer img {
+    margin: 0 auto;
+  }
+
+  .textContainer {
+    margin-top: 50px;
+  }
+
+  .blogHeaderImg h2 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 400px;
+    left: -30px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .blogFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .blogPost, .blogImg, .sideBlog {
+    width: 100%;
+  }
+
+  .recentPost {
+    margin-bottom: 150px;
+  }
+  .recentPost li {
+    z-index: 10;
+  }
+
+  form {
+    margin-left: 0;
+  }
+
+  input,
+textarea {
+    padding: 0 0 5px 5px;
+    margin-bottom: 40px;
+  }
+
+  .contactHeaderImg h2 {
+    font-size: 1.5rem;
+    left: -280px;
+    top: 100px;
+  }
+
+  .flexContact .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }

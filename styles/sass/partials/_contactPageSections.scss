@@ -4,6 +4,8 @@
 .contactHeaderImg{
     height: 70vh;
     background-image: url(../captured-final-assets/contact-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     h2{
         font-size: 4rem;

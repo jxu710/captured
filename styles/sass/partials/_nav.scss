@@ -20,6 +20,8 @@ nav{
 .headerImgContainer{
     height: 90vh;
     background-image: url(../captured-final-assets/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;    
 }
 

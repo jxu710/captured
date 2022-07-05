@@ -343,6 +343,8 @@ nav ul a {
 .headerImgContainer {
   height: 90vh;
   background-image: url(../captured-final-assets/header-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -598,6 +600,8 @@ textarea {
 .blogHeaderImg {
   height: 60vh;
   background-image: url(../captured-final-assets/blog-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 .blogHeaderImg h2 {
@@ -704,6 +708,8 @@ textarea {
 .contactHeaderImg {
   height: 70vh;
   background-image: url(../captured-final-assets/contact-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .contactHeaderImg h2 {
   font-size: 4rem;
@@ -743,4 +749,51 @@ textarea {
 }
 .contactInfoDetail li ~ li {
   margin: 10px -20px 10px 0px;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    left: 15vw;
+    bottom: 10%;
+  }
+
+  form input[type=email] {
+    margin-left: 0;
+  }
+
+  .contactHeaderImg h2 {
+    padding-top: 300px;
+    padding-left: 280px;
+  }
+
+  .flexContact form {
+    margin-top: 0;
+  }
+}
+@media (max-width: 925px) {
+  nav {
+    left: 5vw;
+  }
+
+  ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  ul li {
+    margin: 10px 0;
+  }
+
+  .pictureContainer li {
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    left: 30vw;
+  }
 }

@@ -1,0 +1,63 @@
+// breakpoints at 1000px
+@media (max-width:1000px) {
+    // index page
+    h1{
+        left: 15vw;
+        bottom: 10%;
+    }
+
+    // blog page
+    form{
+        input[type=email] {
+            margin-left: 0;
+        }
+    }
+
+    // contact page
+    .contactHeaderImg {
+        h2{
+            padding-top: 300px;
+            padding-left: 280px;
+        }
+    }
+
+    .flexContact form{
+        margin-top: 0;
+    }
+}
+
+// breakpoints at 925px
+
+@media (max-width:925px) {
+    // index page
+
+    nav{
+        left:5vw;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        li{
+            margin: 10px 0;
+        }
+    }
+
+    .pictureContainer{
+        li{
+            margin: 20px auto;
+        }
+    }
+
+    h1{
+        font-size: 3rem;
+        left:30vw
+    }
+
+}
+
+// breakpoints at 600px
+@media (max-width:600px) {
+    // blog page
+    
+}
+

@@ -2,6 +2,8 @@
 .blogHeaderImg{
     height: 60vh;
     background-image: url(../captured-final-assets/blog-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
 
     h2{

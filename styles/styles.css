@@ -238,7 +238,7 @@ body p {
   line-height: 32px;
 }
 
-h1, h2, h3, nav, button, #contactEmail {
+h1, h2, h3, nav, button, .contactEmail {
   font-family: "Playfair Display", serif;
   margin: 0;
   color: #2c2c2c;
@@ -257,9 +257,10 @@ h3 {
   text-transform: uppercase;
 }
 
-#contactEmail {
+.contactEmail {
   font-size: 1.3rem;
   letter-spacing: 1.1;
+  text-transform: uppercase;
 }
 
 ul, li, a, input {
@@ -275,6 +276,11 @@ a {
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
+}
+
+footer {
+  background: #2c2c2c;
+  text-align: center;
 }
 
 footer p {
@@ -342,7 +348,7 @@ nav ul a {
 
 .headerBoxContainer {
   position: absolute;
-  top: 30vh;
+  top: 40vh;
   right: 0;
   width: 40%;
   -webkit-box-shadow: -8px -20px 0 2em #fdfa69, -8px 20px 0 2em #fdfa69;
@@ -513,11 +519,6 @@ h1 {
   margin: 20px;
 }
 
-footer {
-  background: #2c2c2c;
-  text-align: center;
-}
-
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -577,6 +578,21 @@ textarea {
   border: 1px solid #4ceea7;
   padding-top: 20px;
   padding-left: 20px;
+}
+
+.flexContact form {
+  background: #fafafa;
+  padding: 50px;
+  margin-top: -250px;
+  margin-left: 100px;
+  -webkit-box-shadow: -35px 35px 0 #fdfa69;
+          box-shadow: -35px 35px 0 #fdfa69;
+}
+.flexContact form input[type=email] {
+  margin-left: 6px;
+}
+.flexContact form input {
+  padding: 10px 130px 10px 20px;
 }
 
 .blogHeaderImg {
@@ -683,4 +699,48 @@ textarea {
 
 .secondComment {
   margin-top: 60px;
+}
+
+.contactHeaderImg {
+  height: 70vh;
+  background-image: url(../captured-final-assets/contact-header.jpg);
+}
+.contactHeaderImg h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  position: absolute;
+  top: 200px;
+  left: 35%;
+}
+
+.flexContact {
+  background: #effdf3;
+  padding-bottom: 100px;
+}
+.flexContact .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.socialMedia {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.socialMedia .theIcons {
+  margin: 20px 0px;
+}
+.socialMedia a {
+  margin-right: 20px;
+}
+
+.contactEmail {
+  margin-bottom: 30px;
+}
+
+.contactInfoDetail {
+  margin-left: 0;
+}
+.contactInfoDetail li ~ li {
+  margin: 10px -20px 10px 0px;
 }

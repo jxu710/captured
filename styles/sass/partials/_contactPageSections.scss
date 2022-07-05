@@ -1,0 +1,50 @@
+// contact page styles 
+
+// header style
+.contactHeaderImg{
+    height: 70vh;
+    background-image: url(../captured-final-assets/contact-header.jpg);
+
+    h2{
+        font-size: 4rem;
+        text-transform: uppercase;
+        position: absolute;
+        top: 200px;
+        left:35%;
+    }
+}
+
+// flex and genreal styles 
+.flexContact{
+    background: $quinary;
+    .wrapper{
+        display: flex;
+    }
+    padding-bottom: 100px;
+}
+
+// social media icons style
+.socialMedia{
+    margin-top: 150px;
+    margin-left: 100px;
+    .theIcons{
+        margin: 20px 0px;
+    }
+    a{
+        margin-right: 20px;
+    }
+}
+
+// contact info detail style
+.contactEmail{
+    margin-bottom:  30px;
+}
+
+
+.contactInfoDetail{
+    margin-left: 0;
+    li~li{
+        margin: 10px -20px 10px 0px;
+    }
+}
+
